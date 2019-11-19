@@ -1,24 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Card from './components/Card'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="body-style">
+     
+      <Card color="red" img="http://www.pngmart.com/files/1/Scissors-PNG-Pic.png"winner={true} title="you"></Card>
+      <Card color="green" img="https://opengameart.org/sites/default/files/forum-attachments/very%20simple%20rock_0.png"winner={false} title="computer"></Card>
+   
     </div>
   );
 }

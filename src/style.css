@@ -1,0 +1,33 @@
+.box{
+    width:500px;
+    height:700px;
+    display: flex;
+    justify-content: space-around;
+ align-items: center;
+  
+}
+.red{
+    border:5px solid red;
+    color:red;
+}
+.green{
+    border:5px solid green;
+    color:green;
+    
+}
+.yellow{
+    background-color:yellow;
+}
+.img-style{
+    width:300px;
+}
+.font-style{
+    font-size:50px;
+    font-weight:2px;
+    text-align: center;
+}
+.body-style{
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+}
